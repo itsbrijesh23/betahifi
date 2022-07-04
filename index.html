@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HiFi - Real time Node chat app</title>
+    <script defer src="/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <img class="logo" src="files/chatlogo.png" alt="" />
+    </nav>
+    
+    <div class="container" id="container">
+      <div class="myheading">Hi-Fi ChatApp</div>
+      <div id="messagebox">
+        <!-- <div class="message center">Joined the chat</div>
+        <div class="message right">Ram: Hello bhai</div>
+        <div class="message left">Shyam: hye bro</div> -->
+      </div>
+    </div>
+    <div class="messagesendbox">
+      <form action="#" id="send-container">
+        <input type="text" name="msgInp" id="msgInp" />
+        <button class="btn" id="btn">Send</button>
+      </form>
+    </div>
+  </body>
+  <script>
+    const element = document.getElementById("container");
+    element.scrollTop = element.scrollHeight;
+   
+  </script>
+</html>

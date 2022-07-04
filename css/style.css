@@ -1,0 +1,118 @@
+
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.logo{
+    padding: 10px;
+    display: block;
+    margin: auto;
+    width: 60px;
+    height: 60px;
+}
+
+
+
+body{
+    font-family: 'Baloo Bhai 2', cursive;
+    background-image: linear-gradient(rgb(185, 200, 243),rgb(149, 234, 173));
+    height: 100vh;
+}
+
+.container{
+    display: block;
+    border: 2px solid black;
+    max-width: 995px; 
+    overflow-y: auto;
+    margin: auto;
+    height: 60vh;
+    width: 50%;
+    margin-bottom: 10px; 
+}
+
+
+.myheading{
+    background-color: rgb(85, 240, 240);
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-size: 20px;
+    
+}
+
+.message{
+ background-color: rgb(255, 255, 255);
+ width: 24%;
+ padding: 10px;
+ margin: 17px;
+ border: 2px solid black;
+ border-radius: 10px;
+}
+.center{
+    font-weight: 500;
+    background-color: rgb(151, 255, 151);
+    color: black;
+    border-radius: 20px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    clear: both;
+    margin-block: 5px;
+    width: 30%;
+    font-size: 15px;
+}
+.right{
+    float: right;
+    clear: both;
+    margin: 3px;
+ 
+}
+.left{
+    float: left;
+    clear: both;
+    margin: 3px;
+
+}
+
+
+ 
+
+.messagesendbox{
+    margin: 5px;
+    display: block;
+    margin: auto;
+     width: 100%;
+}
+
+#send-container{
+    display: block;    
+    margin: auto; 
+    text-align: center;
+    max-width: 985px;
+    width: 100%;
+    
+}
+#msgInp{
+    padding: 5px;
+    width: 55%;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 18px;
+    height: 34px;
+}
+#btn{
+    cursor: pointer;
+    border: 2px solid black;
+    background-color: rgb(209, 209, 209);
+    border-radius: 10px;
+    padding: 10px;
+    width: 75px;
+    font-size: 18px;
+    font-family: 'Finlandica', sans-serif;
+    font-weight: bolder;
+}
+
+
